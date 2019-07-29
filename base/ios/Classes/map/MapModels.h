@@ -3,8 +3,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MAPointAnnotation.h"
-#import "MAPolyline.h"
+//#import "MAPointAnnotation.h"
+//#import "MAPolyline.h"
+#import <MAMapKit/MAPointAnnotation.h>
+#import <MAMapKit/MAPolyline.h>
 
 @class UnifiedMarkerOptions;
 @class LatLng;

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Flutter/Flutter.h"
+#import <Flutter/Flutter.h>
 
 @interface Misc : NSObject
 

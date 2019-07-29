@@ -3,7 +3,8 @@
 //
 
 #import "LocationHandlers.h"
-#import "MJExtension.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 #import "AMapBasePlugin.h"
 #import "LocationModels.h"
 
@@ -88,6 +89,12 @@ static AMapLocationManager *_locationManager;
                                                withRegoecode:reGeocode
                                                    withError:nil] mj_JSONString]);
     }
+}
+
+/// 此方法实现调用后台权限API即可
+- (void)amapLocationManager:(AMapLocationManager *)manager doRequireLocationAuth:(CLLocationManager *)locationManager
+{
+    [locationManager requestAlwaysAuthorization];
 }
 
 - (FlutterError *_Nullable)onListenWithArguments:(id _Nullable)arguments eventSink:(FlutterEventSink)events {

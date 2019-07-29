@@ -2,10 +2,12 @@
 // Created by Yohom Bao on 2018-12-15.
 //
 
-#import "MAMapView.h"
+//#import "MAMapView.h"
+#import <MAMapKit/MAMapView.h>
 #import "MapModels.h"
 #import "NSString+Color.h"
-#import "MJExtension.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 
 
 @implementation MarkerAnnotation {

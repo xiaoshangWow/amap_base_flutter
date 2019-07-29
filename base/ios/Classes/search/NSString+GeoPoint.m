@@ -3,8 +3,8 @@
 //
 
 #import "NSString+GeoPoint.h"
-#import "AMapSearchKit.h"
-
+//#import "AMapSearchKit.h"
+#import <AMapSearchKit/AMapSearchKit.h>
 
 @implementation NSString (GeoPoint)
 

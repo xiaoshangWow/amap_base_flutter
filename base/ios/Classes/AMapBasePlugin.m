@@ -1,5 +1,6 @@
-#import "AMapServices.h"
 #import "AMapBasePlugin.h"
+//#import "AMapServices.h"
+#import <AMapFoundationKit/AMapURLSearch.h>
 #import "AMapViewFactory.h"
 #import "IMethodHandler.h"
 #import "FunctionRegistry.h"

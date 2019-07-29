@@ -4,7 +4,8 @@
 
 #import <Foundation/Foundation.h>
 #import <Flutter/Flutter.h>
-#import "MAMapKit.h"
+//#import "MAMapKit.h"
+#import <MAMapKit/MAMapKit.h>
 
 static NSString *success = @"调用成功";
 

@@ -3,12 +3,15 @@
 //
 
 #import "SearchModels.h"
-#import "AMapSearchObj.h"
+//#import "AMapSearchObj.h"
+#import <AMapSearchKit/AMapSearchObj.h>
 #import "NSArray+Rx.h"
 #import "NSString+GeoPoint.h"
-#import "MJExtension.h"
-#import "AMapSearchKit.h"
-#import "AMapCommonObj.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
+//#import "AMapSearchKit.h"
+#import <AMapSearchKit/AMapSearchKit.h>
+//#import "AMapCommonObj.h"
 
 
 //region RoutePlanParam

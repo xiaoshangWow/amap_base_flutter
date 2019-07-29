@@ -4,7 +4,8 @@
 
 #import <Foundation/Foundation.h>
 #import "IMethodHandler.h"
-#import "AMapLocationKit.h"
+//#import "AMapLocationKit.h"
+#import <AMapLocationKit/AMapLocationKit.h>
 
 @class AMapLocationManager;
 

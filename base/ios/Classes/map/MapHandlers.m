@@ -4,11 +4,14 @@
 
 #import "MapHandlers.h"
 #import <CoreLocation/CoreLocation.h>
-#import "MAMapView.h"
-#import "AMapFoundationKit.h"
+//#import "MAMapView.h"
+#import <MAMapKit/MAMapView.h>
+//#import "AMapFoundationKit.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 #import "AMapViewFactory.h"
 #import "MapModels.h"
-#import "MJExtension.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 #import "UnifiedAssets.h"
 
 

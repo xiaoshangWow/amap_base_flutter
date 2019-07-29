@@ -2,7 +2,8 @@
 // Created by Yohom Bao on 2018-12-15.
 //
 
-#import "AMapLocationManager.h"
+//#import "AMapLocationManager.h"
+#import <AMapLocationKit/AMapLocationManager.h>
 #import "LocationModels.h"
 
 

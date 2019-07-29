@@ -3,9 +3,12 @@
 //
 
 #import "NaviHandlers.h"
-#import "AMapNaviCompositeManager.h"
-#import "AMapNaviCompositeUserConfig.h"
-#import "AMapServices.h"
+//#import "AMapNaviCompositeManager.h"
+#import <AMapNaviKit/AMapNaviCompositeManager.h>
+//#import "AMapNaviCompositeUserConfig.h"
+#import <AMapNaviKit/AMapNaviCompositeUserConfig.h>
+//#import "AMapServices.h"
+#import <AMapFoundationKit/AMapServices.h>
 
 @implementation StartNavi {
 }

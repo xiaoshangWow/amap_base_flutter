@@ -3,11 +3,13 @@
 //
 
 #import "AMapViewFactory.h"
-#import "MAMapView.h"
+//#import "MAMapView.h"
+#import <MAMapKit/MAMapView.h>
 #import "MapModels.h"
 #import "AMapBasePlugin.h"
 #import "UnifiedAssets.h"
-#import "MJExtension.h"
+//#import "MJExtension.h"
+#import <MJExtension/MJExtension.h>
 #import "NSString+Color.h"
 #import "FunctionRegistry.h"
 #import "MapHandlers.h"
@@ -131,6 +133,12 @@ static NSString *markerClickedChannelName = @"me.yohom/marker_clicked";
 }
 
 #pragma MAMapViewDelegate
+
+/// 此方法实现调用后台权限API即可
+- (void)mapViewRequireLocationAuth:(CLLocationManager *)locationManager
+{
+    [locationManager requestAlwaysAuthorization];
+}
 
 /// 点击annotation回调
 - (void)mapView:(MAMapView *)mapView didSelectAnnotationView:(MAAnnotationView *)view {
